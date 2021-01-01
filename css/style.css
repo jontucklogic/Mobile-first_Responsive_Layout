@@ -5,6 +5,11 @@
   box-sizing: border-box;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: 'Open Sans', sans-serif;
@@ -90,6 +95,7 @@ img {
 ul.skills {
   padding: 0;
   text-align: center;
+  list-style: none;
 }
 
 .skills li {
@@ -267,7 +273,7 @@ ul.skills {
   }
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1024px) and (min-height: 400px) {
 
 /* ----  Header/Navigation  ---- */
 
